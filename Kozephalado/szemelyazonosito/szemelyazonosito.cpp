@@ -46,10 +46,18 @@ int main(int argc, char **argv) {
     }else if (elsoev < masodikev) {
         cout << azonosito2 << endl;
     }else {
-        if (azonosito1 % 100 < azonosito2 % 100) {
+        int honap1 = (azonosito1 / 100000) % 100;
+        int honap2 = (azonosito2 / 100000) % 100;
+        if (honap1 > honap2) {
             cout << azonosito1 << endl;
-        }else {
+        }else if (elsoev < masodikev) {
             cout << azonosito2 << endl;
+        }else {
+            if (azonosito1 % 100 < azonosito2 % 100) {
+                cout << azonosito1 << endl;
+            }else {
+                cout << azonosito2 << endl;
+            }
         }
     }
 
