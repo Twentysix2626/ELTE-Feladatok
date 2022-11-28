@@ -1,3 +1,3 @@
-?/100
+63/100
 
-Nem tudtam beküldeni, mert megállt a website + a példában a számok nem azok amit a feladat kér, ezzel nem tudom mivan
+A példában a számok nem azok amit a feladat kér, ezzel nem tudom mivan, valószínüleg teljesen helytelen a feladat
